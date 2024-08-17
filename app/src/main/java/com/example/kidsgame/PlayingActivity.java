@@ -100,7 +100,7 @@ public class PlayingActivity extends AppCompatActivity implements TextToSpeech.O
         category = getIntent().getStringExtra("category");
 
         question.setText("What is the name of this " + category.substring(0, category.length()-1) + "?");
-        Toast.makeText(this, ""+ category, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, ""+ category, Toast.LENGTH_SHORT).show();
 
         switch (category){
             case "animals": {
